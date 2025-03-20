@@ -1,0 +1,26 @@
+:host {
+    display: block;
+    user-select: none;
+    box-sizing: border-box;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+[hidden] {
+    display: none;
+}
+
+.hidden {
+    display: none;
+}
+
+a {
+    color: var(--info-0);
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
